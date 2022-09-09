@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+Arabic:wght@500&family=Poppins:wght@100&display=swap');
+
+
+
+
+
+body {
+    background-color: #FEF5ED;
+    font-family: 'Noto Sans Arabic', sans-serif!important;
+}
+
+.navbar {
+    background-color: #FEF5ED!important;
+}
+
+.nav-item a {
+    font-size: 1.75rem;
+    
+    color:#1E1E1E!important;
+    margin: 0 75px 0 75px;
+}
+
+.nav-item a:hover {
+   
+    color: gray!important;;
+
+}
+
+.navbar-collapse {
+    /* margin-right:100px; */
+}
+
+.navbar-brand {
+    
+    
+    font-size:3rem;
+    padding:20px;
+    margin-right:30px!important;
+    text-align: right!important;
+
+}
+
+.text-right {
+    text-align:right!important;
+}
+
+.exam-button {
+    background-color: #4A544A;
+    color:white;
+    border-radius: 25px;
+    font-size:32px;
+    border-color:transparent;
+    padding:9px 13px 9px 13px;
+}
+
+.content {
+    font-size: 20px;
+   
+}
+
