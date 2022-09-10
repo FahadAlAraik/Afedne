@@ -14,13 +14,13 @@
 
     <nav class="navbar navbar-expand-lg flex-row-reverse">
        
-        <a class="navbar-brand" href="#" style="color:#1E1E1E!important">أَفِدْنِي</a>
-  
+        <a class="navbar-brand" href="/" style="color:#1E1E1E!important">أَفِدْنِي</a>
+    
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         
-          <div class="collapse navbar-collapse justify-content-end" style="margin-right:150px;" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse justify-content-end w-100" style="margin-right:150px;" id="navbarSupportedContent">
             
             
              
@@ -28,10 +28,22 @@
             
             <ul class="navbar-nav ">
               
+              <% if(userName == '') { %> 
               <li class="nav-item">
                 <a class="nav-link" href="/signin">الدخول</a>
               </li>
-  
+    
+              <% } else { %>
+                
+                <li class="nav-item">
+                  <a class="nav-link"> <%= userName %></a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="/signout"> الخروج</a>
+                </li>
+                <% } %>
+    
               <li class="nav-item">
                 <a class="nav-link" href="/about">عنا</a>
               </li>
@@ -39,19 +51,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="/roadmaps">خطط المجالات</a>
               </li>
-  
+    
               <li class="nav-item">
                 <a class="nav-link" href="/fields">المجالات</a>
               </li>
-  
+    
               <li class="nav-item">
                 <a class="nav-link" href="/">الرئيسية</a>
               </li>
-  
+    
             </ul>
-  
+    
           </div>
-  
+    
           
          
           

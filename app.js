@@ -31,7 +31,15 @@ var con = mysql.createConnection({
 
 app.get('/', function(req,res) {
 
-   res.render('index', {userName:userName})
+   res.render('index', {userName:userName,loggedOut:false})
+
+})
+
+app.get('/exam', function(req,res) {
+
+
+  res.render('exam', {userName:userName})
+
 
 })
 
@@ -58,7 +66,7 @@ app.post('/signin',function(req,res) {
 
       if(result.length != 0){
         userName =result[0].name;
-        res.render('index', {userName:userName})
+        res.render('index', {userName:userName,loggedOut:false})
       
       }
       else  res.render('signin',{success:false,err:true})
@@ -77,7 +85,7 @@ app.post('/signin',function(req,res) {
 app.get('/signout', function(req,res) {
 
   userName='';
-  res.render('index', {userName:userName})
+  res.render('index', {userName:userName, loggedOut:true})
 
 })
 
