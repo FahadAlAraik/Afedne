@@ -12,5 +12,123 @@
 </head>
 <body>
     
+
+    <nav class="navbar navbar-expand-lg flex-row-reverse">
+       
+        <a class="navbar-brand" href="#" style="color:#1E1E1E!important">أَفِدْنِي</a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse justify-content-end" style="margin-right:150px;" id="navbarSupportedContent">
+            
+            
+             
+            
+            
+            <ul class="navbar-nav ">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="/signin">الدخول</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/about">عنا</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="/roadmaps">خطط المجالات</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/fields">المجالات</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/">الرئيسية</a>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+          
+         
+          
+        </nav>
+
+
+        <% if (err) { %>
+
+            <div class="alert alert-danger text-right" role="alert" style ='width:70%;margin:auto;'>
+                <strong>حصل خطأ!</strong> الايميل او كلمة المرور خاطئة.
+              </div>
+
+            <% } %>
+
+        <% if (success) { %>
+
+            <div class="alert alert-success text-right" role="alert" style ='width:70%;margin:auto;'>
+                <strong>تم تسجيلك بنجاح!</strong> سجل دخولك الان.
+            </div>
+
+            <% } %>
+
+
+
+        <div class="row justify-content-center w-100" style="margin-top:150px;">
+
+            <div class="col-4 text-center">
+
+                <img src="../images/signin.png" alt="signin">
+
+            </div>
+
+            <div class="col-4 align-self-center text-right">
+                <h1>تسجيل الدخول</h1>
+                <form action="/signin" method="POST">
+                    
+                    <div class="form-group">
+                      <br><br><label for="signin" style="margin-bottom:20px;font-size:20px;">البريد الالكتروني</label><br>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="البريد الالكتروني">
+                    </div><br>
+
+                    <div class="form-group">
+                      <label for="password" style="margin-bottom:20px;margin-top:20px;font-size:20px;">كلمة السر</label>
+                      <input type="text" class="form-control" id="password" name="password" placeholder="كلمة السر">
+                    </div>
+
+                    <br><br>
+                    <button type="submit" class="btn btn-success">تسجيل الدخول</button>
+
+                  </form>
+            </div>
+
+
+
+        </div>
+
+        <br><br> <br><br>
+        <div class="col text-center">
+
+            <h3>لا تمتلك حساب من قبل؟ <span><a href="signup">سجل</a></span></h3>
+
+        </div>
+
+        <br><br><br><br>
+
+        <footer>
+            <div class="col text-center">
+              <h2>أَفِدْنِي</h2>
+              <p style="font-weight:bold;">&copy; ۲۰۲۲</p>
+            </div>
+        </footer>
+
+        <br>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

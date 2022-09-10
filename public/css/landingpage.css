@@ -17,7 +17,7 @@ body {
     font-size: 1.75rem;
     
     color:#1E1E1E!important;
-    margin: 0 75px 0 75px;
+    margin: 0 30px 0 30px;
 }
 
 .nav-item a:hover {
@@ -58,3 +58,10 @@ body {
    
 }
 
+
+.form-control {
+    background-color: transparent!important;
+    text-align: right;
+    border:none;
+    border-bottom:1px solid black;
+}
