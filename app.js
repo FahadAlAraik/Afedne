@@ -43,6 +43,10 @@ app.get('/exam', function(req,res) {
 
 })
 
+app.post('/exam', function(req,res) {
+  console.log(req.body)
+})
+
 app.get('/signin', function(req,res) {
 
   res.render('signin', {success:false,err:false})
