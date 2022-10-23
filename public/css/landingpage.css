@@ -164,3 +164,315 @@ body {
   border-color:rgb(148, 148, 148);
   background-color: rgb(148, 148, 148);
 }
+
+/*  Hatim CSS */
+.vector4{
+    position: absolute;
+    width: 1230px;
+    height: 692px;
+    left: 400px;
+    top: 200px;
+    z-index: -1;
+    }
+    
+    .aboutus{
+    position: absolute;
+    width: 158px;
+    height: 131px;
+    left: 1450px;
+    top: 230px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    }
+    
+    .we{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    
+    .easy{
+    position: absolute;
+    width: 1150px;
+    height: 227px;
+    left: 400px;
+    top: 625px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .fahad{
+    position: absolute;
+    width: 238px;
+    height: 238px;
+    left: 850px;
+    top: 1100px;
+    
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .nawaf{
+        position: absolute;
+    width: 219px;
+    height: 219px;
+    left: 323px;
+    top: 1350px;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .hatem{
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    left: 1401px;
+    top: 1350px;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .wetext{
+    position: absolute;
+    width: 114px;
+    height: 78px;
+    left: 905px;
+    top: 950px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    
+    .loogo{
+    position: absolute;
+    width: 274px;
+    height: 190px;
+    left: 500px;
+    top: 250px;
+    }
+    
+    .farec{
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .harec{
+    position: absolute;
+    width: 670px;
+    height: 222px;
+    z-index: -1;
+    
+    }
+    
+    .narec{
+    position: absolute;
+    width: 670px;
+    height: 222px;
+    z-index: -1;
+    
+    }
+    
+    .faatext{
+        position: absolute;
+        left: 610px;
+        top: 1350px;
+        
+    }
+    
+    .haatext{
+        position: absolute;
+        left: 975px;
+        top: 1608px;
+        
+    }
+    
+    .naatext{
+        position: absolute;
+        left: 281px;
+        top: 1608px;
+        
+    }
+    
+    .halfrec{
+    position: absolute;
+    width: 923px;
+    height: 872.5px;
+    left: 488px;
+    top: 2359px;
+    z-index: -40;
+    border-radius: 25px;
+    background: #B8CFB4;
+    }
+    
+    .mail{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 140px;
+    top: 2550px;
+    }
+    
+    #message
+    {
+        height:200px;
+        
+    }
+    
+    .contact{
+    position: absolute;
+    width: 514px;
+    height: 287px;
+    left: 815px;
+    top: 2390px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    
+    color: #000000;
+    }
+    
+    .contact-name{
+        position: absolute;
+        width: 91px;
+        height: 44px;
+        left: 1233px;
+        top: 2469px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    .contact-email{
+        position: absolute;
+        width: 245px;
+        height: 44px;
+        left: 1092px;
+        top: 2621px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+        
+        
+    
+    
+    }
+    
+    .contact-message{
+        position: absolute;
+    width: 192px;
+    height: 44px;
+    left: 1145px;
+    top: 2785px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    }
+    
+    #contact-fname{
+        position: absolute;
+        width: 515px;
+        height: 66px;
+        left: 844px;
+        top: 2534px;
+        
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    
+    #contact-email1{
+        position: absolute;
+    width: 515px;
+    height: 66px;
+    left: 844px;
+    top: 2698px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+    }
+    
+    #contact-message1{
+        position: absolute;
+    width: 518px;
+    height: 255px;
+    left: 844px;
+    top: 2861px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+    }
+    
+    .contact-button{
+        position: absolute;
+    width: 207px;
+    height: 75px;
+    left: 1155px;
+    top: 3142px;
+    font-size: 24px;
+    color: white;
+    background: #51614F;
+    border-radius: 20px;
+    }
+    
+    .aboutus-footer{
+        position: absolute;
+    width: 207px;
+    height: 75px;
+    left: 800px;
+    top: 3300px;
+    }

@@ -166,6 +166,28 @@ app.get('/fields', function(req,res) {
   res.render('fields', {userName:userName})
 })
 
+app.post('/contact', function(req,res) {
+
+  var email = req.body.email;
+  var namee = req.body.fname;
+  var message = req.body.message;
+  console.log(req.body)
+  console.log("HII")
+  query = `INSERT INTO about values ('${email}','${namee}','${message}')`
+          con.query(query,function(err,result) {
+
+            if(err)
+              console.log(err)
+
+              console.log("INSERTED?")
+            
+
+
+          })
+
+
+})
+
 
 app.listen(3000, function() {
     console.log('SERVER STARTED ON PORT 3000');
