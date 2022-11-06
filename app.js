@@ -11,10 +11,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 
 var con = mysql.createConnection({
-    host: "localhost",
-    database:'mydb',
-    user: "root",
-    password: "root"
+    host: "eu-cdbr-west-03.cleardb.net",
+    database:'heroku_fa972d7368b401f',
+    user: "bc688a2cdd301e",
+    password: "81e173b2"
   });
   
   con.connect(function(err) {
