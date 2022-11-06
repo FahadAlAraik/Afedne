@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="../css/landingpage.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Afedne - أفدني</title>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg flex-row-reverse">
+    <nav class="navbar navbar-expand-lg flex-row-reverse"  data-aos="fade-left" data-aos-duration="1000">
        
         <a class="navbar-brand" href="/" style="color:#1E1E1E!important">أَفِدْنِي</a>
   
@@ -68,15 +70,15 @@
             <% } %>
 
 
-        <div class="row justify-content-center w-100 reverse" style="margin-top:150px;">
+        <div class="row justify-content-center w-100 reverse" style="margin-top:100px;">
 
-            <div class="col-4 text-center align-self-center align-items-center">
+            <div class="col-4 text-center align-self-center align-items-center" data-aos="fade-right" data-aos-duration="1500">
 
                 <img src="../images/signup.png" alt="signin">
 
             </div>
 
-            <div class="col-4 align-self-center text-right">
+            <div class="col-4 align-self-center text-right" data-aos="fade-left" data-aos-duration="1500">
                 <h1>التسجيل</h1>
                 <form action="/signup" method="POST">
                     
@@ -92,12 +94,12 @@
 
                     <div class="form-group">
                       <label for="password" style="margin-bottom:20px;margin-top:20px;font-size:20px;">كلمة السر</label>
-                      <input type="text" class="form-control" id="password" name="password" placeholder="كلمة السر">
+                      <input type="password" class="form-control" id="password" name="password" placeholder="كلمة السر">
                     </div><br>
 
                     <div class="form-group">
                         <label for="password" style="margin-bottom:20px;margin-top:20px;font-size:20px;">تأكيد كلمة السر</label>
-                        <input type="text" class="form-control" id="password2" name="password2" placeholder="كلمة السر">
+                        <input type="password" class="form-control" id="password2" name="password2" placeholder="كلمة السر">
                       </div>
 
                     <br><br>
@@ -122,7 +124,9 @@
 
         <br>
 
-
+        <script>
+          AOS.init();
+        </script>
 
 
 

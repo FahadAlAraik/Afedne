@@ -44,7 +44,21 @@ app.get('/exam', function(req,res) {
 })
 
 app.post('/exam', function(req,res) {
+  
+  let web,ai,mobile,frontend,backend = 0;
   console.log(req.body)
+  frontend = ((Number(req.body.q1) + Number(req.body.q9))/20) * 100;
+  backend = ((Number(req.body.q5) + Number(req.body.q6))/20) * 100;
+  web = ((Number(req.body.q4) + Number(req.body.q7) + Number(req.body.q8))/30) * 100 ;
+  mobile = ((Number(req.body.q4) + Number(req.body.q10) + Number(req.body.q8))/30) * 100 ;
+  ai = ((Number(req.body.q2) + Number(req.body.q3) + Number(req.body.q5))/30) * 100 ;
+  frontend = Math.ceil(frontend)
+  backend = Math.ceil(backend)
+  web = Math.ceil(web);
+  mobile = Math.ceil(mobile)
+  ai = Math.ceil(ai)
+  res.render('result',{webResult:web,aiResult:ai,mobileResult:mobile,frontendResult:frontend,backendResult:backend,userName:userName})
+
 })
 
 app.get('/signin', function(req,res) {

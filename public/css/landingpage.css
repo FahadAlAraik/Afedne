@@ -30,6 +30,33 @@ body {
     /* margin-right:100px; */
 }
 
+.anim-landing:hover {
+    transform: scale(1.05)!important;
+    
+    
+}
+
+.anim-fields:hover {
+
+    background-color:#1e221e!important;
+
+}
+
+.web-anim:hover  {
+    background-color:#000000!important ;
+    color:white!important;
+}
+
+.mobile-anim:hover {
+    background-color:#11282c!important;
+    color: white!important;
+}
+
+.ai-anim:hover {
+    background-color:#0d1c27!important;
+    color: white!important;
+}
+
 .navbar-brand {
     
     
@@ -52,6 +79,11 @@ body {
     border-color:transparent;
     padding:9px 13px 9px 13px;
     text-decoration: none;
+}
+
+.exam-button:hover {
+    background-color: #142714;
+    transition: 0.6s;
 }
 
 .exam-button:hover {
@@ -84,6 +116,46 @@ body {
     
   }
 
+@media only screen and (max-width:1195px) {
+    .trans6 {
+        transform: scale(3)!important;
+      }
+    
+      .trans5 {
+        transform:scale(2)!important;
+      }
+    
+      .trans4 {
+        transform:scale(1.1)!important;
+      }
+}
+
+@media only screen and (max-width:559px) {
+    .trans6 {
+        transform: scale(1.7)!important;
+      }
+    
+      .trans5 {
+        transform:scale(1.5)!important;
+      }
+    
+      .trans4 {
+        transform:scale(1.1)!important;
+      }
+}
+
+  .trans6 {
+    transform:scale(6);
+  }
+
+  .trans5 {
+    transform:scale(5);
+  }
+
+  .trans4 {
+    transform:scale(4);
+  }
+
 
 .agree input[type='radio'] {
     appearance: none!important;
@@ -102,12 +174,14 @@ body {
 
 .agree input[type="radio"]:checked:before {
     background: green;
+    transition: 0.5s;
     
 }
 
 .agree input[type="radio"]:checked {
   border-color:green;
   background-color: green;
+  transition: 0.5s;
 }
 
 /* --- */ 
@@ -119,6 +193,7 @@ body {
     border-radius: 50%!important;
     outline: none!important;
     border: 1px solid rgb(187, 38, 33)!important;
+
 }
 
 .disagree input[type='radio']:before {
@@ -129,12 +204,14 @@ body {
 
 .disagree input[type="radio"]:checked:before {
     background: rgb(187, 38, 33);
+    transition: 0.5s;
     
 }
 
 .disagree input[type="radio"]:checked {
   border-color:rgb(187, 38, 33);
   background-color: rgb(187, 38, 33);
+  transition: 0.5s;
 }
 
 /* */
@@ -157,12 +234,14 @@ body {
 
 .neutral input[type="radio"]:checked:before {
     background: rgb(148, 148, 148);
+    transition: 0.5s;
     
 }
 
 .neutral input[type="radio"]:checked {
   border-color:rgb(148, 148, 148);
   background-color: rgb(148, 148, 148);
+  transition: 0.5s;
 }
 
 /*  Hatim CSS */
