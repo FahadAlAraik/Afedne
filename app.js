@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const mysql = require('mysql');
 const app = express();
+const port = process.env.PORT || 3000;
 var userName = '';
 // go to views file
 app.set('view engine', 'ejs');
@@ -203,8 +204,8 @@ app.post('/contact', function(req,res) {
 })
 
 
-app.listen(3000, function() {
-    console.log('SERVER STARTED ON PORT 3000');
+app.listen(port, function() {
+    console.log('SERVER STARTED ON PORT '+ port);
 
     
 
