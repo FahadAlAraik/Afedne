@@ -9,4 +9,8 @@ and what programming languages to learn, or take a ten question exam that might 
 <li>Artificial Intelligence (General AI)</li>
 </ul>
 
+demos:
 
+https://youtu.be/LXLnXYnheLg
+
+https://clipchamp.com/watch/ZxpY7Cdi4DY
